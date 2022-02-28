@@ -1,7 +1,6 @@
 from plistlib import UID
 import sys
 import random
-import time
 from PyQt5.QtWidgets import QDialog, QApplication
 from uSingle import *
 from PyQt5 import QtCore
