@@ -1,2 +1,1 @@
-!*.py
-uSingle.ui
+__pycache__/*
