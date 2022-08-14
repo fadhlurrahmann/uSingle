@@ -1,2 +1,3 @@
 # uSingle
-run callSingle.py file
+pip install pyqt5
+python callSingle.py

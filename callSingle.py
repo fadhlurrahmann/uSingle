@@ -11,7 +11,7 @@ class Single(QDialog):
         self.ui = Ui_Dialog()
         self.ui.setupUi(self)
         self.ui.labelAnswer.setVisible(False)
-        self.ui.buttonNo .clicked.connect(self.buttonNo)
+        self.ui.buttonNo.clicked.connect(self.buttonNo)
         self.ui.buttonYes.clicked.connect(self.buttonYes)
         self.show()
     
