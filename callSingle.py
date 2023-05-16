@@ -1,4 +1,3 @@
-from plistlib import UID
 import sys
 import random
 from PyQt5.QtWidgets import QDialog, QApplication
@@ -11,6 +10,7 @@ class Single(QDialog):
         self.ui = Ui_Dialog()
         self.ui.setupUi(self)
         self.ui.labelAnswer.setVisible(False)
+        self.ui.buttonNo
         self.ui.buttonNo.clicked.connect(self.buttonNo)
         self.ui.buttonYes.clicked.connect(self.buttonYes)
         self.show()

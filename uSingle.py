@@ -47,7 +47,7 @@ class Ui_Dialog(object):
 
     def retranslateUi(self, Dialog):
         _translate = QtCore.QCoreApplication.translate
-        Dialog.setWindowTitle(_translate("Dialog", "Hilmi - YesOrNo"))
+        Dialog.setWindowTitle(_translate("Dialog", "Single - YesOrNo"))
         self.labelQuestion.setText(_translate("Dialog", "Are you single?"))
         self.buttonYes.setText(_translate("Dialog", "Yes"))
         self.buttonNo.setText(_translate("Dialog", "No"))
